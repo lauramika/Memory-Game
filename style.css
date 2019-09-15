@@ -10,3 +10,28 @@ body {
     background: radial-gradient(lime, gold);
     font-family: 'Gochi Hand', cursive;
 }
+.title-game {
+    color: teal;
+    text-align: center;
+    font-size: 3em;
+}
+.main-container {
+    color: teal;
+    font-size: 2em;
+}
+.rules-container {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 8px;
+}
+
+.cards {
+    background-color: white;
+    height: 150px;
+    width: 90px;
+}
