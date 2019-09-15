@@ -21,13 +21,18 @@ body {
 }
 .rules-container {
     grid-column: 1 / -1;
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    justify-content: space-between;
+   /* display: grid;
+    grid-template-columns: auto auto;*/
 }
 .main-container {
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-gap: 8px;
+    margin: 50px;
+    justify-content: center;
+    
 }
 
 .cards {
