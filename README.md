@@ -13,3 +13,5 @@ period, game is won.
 * HTML
 * CSS
 * Javascript
+## Credits
+Images taken from http://clipart-library.com

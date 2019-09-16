@@ -23,8 +23,6 @@ body {
     grid-column: 1 / -1;
     display: flex;
     justify-content: space-between;
-   /* display: grid;
-    grid-template-columns: auto auto;*/
 }
 .main-container {
     display: grid;
@@ -36,7 +34,21 @@ body {
 }
 
 .cards {
-    background-color: white;
-    height: 150px;
-    width: 90px;
+    background-color: #D9C4C4;
+    height: 110px;
+    width: 110px;
+    border-radius: 15px;
+    transition: transform .2s;
+    border: 2px solid black;
 }
+.cards:hover {
+    transform: scale(1.05);
+}
+
+img {
+    height: 104px;
+    width: 104px;
+    border-radius: 15px;
+}
+
+
