@@ -10,15 +10,18 @@ body {
     background: radial-gradient(lime, gold);
     font-family: 'Gochi Hand', cursive;
 }
+h2 {
+    text-align: center;
+}
+p, .times {
+    margin: 20px;
+}
 .title-game {
     color: teal;
     text-align: center;
     font-size: 3.5em;
 }
-.main-container {
-    color: teal;
-    font-size: 2.1em;
-}
+
 .rules-container {
     grid-column: 1 / -1;
     display: flex;
@@ -29,7 +32,9 @@ body {
     grid-template-columns: repeat(4, auto);
     grid-gap: 8px;
     justify-content: center;
-    
+    margin-bottom: 100px;
+    color: teal;
+    font-size: 2.1em;
 }
 
 .cards {
@@ -53,6 +58,29 @@ img {
 .front-face, .back-face {
     position: absolute;
 }
+.buttons {
+    text-align: center;
+}
+button {
+    font-family: 'Gochi Hand', cursive;
+    width: 100px;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: teal;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: none;
+    margin: 5px;
+}
+button:hover {
+   transform: scale(1.1);
+   box-shadow: 3px 3px white;
+   opacity: 0.9;
+}
+
 @media screen and (max-width: 800px) {
   .cards{
       height: 95px;
