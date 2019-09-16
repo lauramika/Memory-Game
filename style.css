@@ -13,11 +13,11 @@ body {
 .title-game {
     color: teal;
     text-align: center;
-    font-size: 3em;
+    font-size: 3.5em;
 }
 .main-container {
     color: teal;
-    font-size: 2em;
+    font-size: 2.1em;
 }
 .rules-container {
     grid-column: 1 / -1;
@@ -28,27 +28,66 @@ body {
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-gap: 8px;
-    margin: 50px;
     justify-content: center;
     
 }
 
 .cards {
-    background-color: #D9C4C4;
-    height: 110px;
-    width: 110px;
+    background-color: white;
+    height: 115px;
+    width: 115px;
     border-radius: 15px;
     transition: transform .2s;
-    border: 2px solid black;
+    border: 1px solid gray;
+    position: relative;
 }
 .cards:hover {
     transform: scale(1.05);
 }
 
 img {
-    height: 104px;
-    width: 104px;
+    height: 111px;
+    width: 111px;
     border-radius: 15px;
 }
-
-
+.front-face, .back-face {
+    position: absolute;
+}
+@media screen and (max-width: 800px) {
+  .cards{
+      height: 95px;
+      width: 95px;
+  }
+  img {
+      height: 91px;
+      width: 91px;
+  }
+  .main-container {
+      grid-gap: 4px;
+  }
+  .title-game {
+      font-size: 2.5em;
+  }
+  .main-container {
+      font-size: 1.6em;
+  }
+  }
+@media screen and (max-width: 480px) {
+  .cards{
+      height: 70px;
+      width: 70px;
+  }
+  img {
+      height: 66px;
+      width: 66px;
+  }
+  .main-container {
+      grid-gap: 1px;
+  }
+  .title-game {
+      font-size: 2em;
+  }
+  .main-container {
+      font-size: 1.2em;
+  }
+  }
