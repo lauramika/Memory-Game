@@ -1,7 +1,7 @@
 # Memory Game
 ## Intro
 It's a single player card game in which all of the cards are 
-laid fce down on a surface and two cards are flipped face up over 
+laid face down on a surface and two cards are flipped face up over 
 each turn. If all pairs are matched within the given time 
 period, game is won.
 ## User Stories
