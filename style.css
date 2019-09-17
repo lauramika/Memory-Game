@@ -35,6 +35,7 @@ p, .times {
     margin-bottom: 100px;
     color: teal;
     font-size: 2.1em;
+   
 }
 
 .cards {
@@ -45,9 +46,21 @@ p, .times {
     transition: transform .2s;
     border: 1px solid gray;
     position: relative;
+    transform-style: preserve-3d;
+    
+}
+.front-face {
+    backface-visibility: hidden;
+     transform: rotateY(180deg);
+}
+.back-face {
+    backface-visibility: hidden;
+    
 }
 .cards:hover {
     transform: scale(1.05);
+    transform: rotateY(180deg);
+    transition: ease .6s;
 }
 
 img {
