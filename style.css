@@ -17,7 +17,7 @@ p, .times {
     margin: 20px;
 }
 .title-game {
-    color: teal;
+    color: rgb(199,1,30);;
     text-align: center;
     font-size: 3.5em;
 }
@@ -33,7 +33,7 @@ p, .times {
     grid-gap: 8px;
     justify-content: center;
     margin-bottom: 100px;
-    color: teal;
+    color: black;
     font-size: 2.1em;
    
 }
@@ -82,7 +82,7 @@ button {
     color: white;
     font-weight: bold;
     text-transform: uppercase;
-    background: teal;
+    background: rgb(199,1,30);
     padding: 5px 10px;
     border-radius: 30px;
     border: none;
@@ -131,4 +131,8 @@ button:hover {
   .main-container {
       font-size: 1.2em;
   }
+  button {
+    width: 80px;
+    font-size: 1em;
+}
   }
