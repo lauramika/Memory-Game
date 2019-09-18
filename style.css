@@ -1,3 +1,4 @@
+/*import google font*/
 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
 * {
     box-sizing: border-box;
@@ -7,8 +8,14 @@ html {
 }
 body {
     margin: 0;
-    background: radial-gradient(lime, gold);
+     background-image: url("images/background-3147808_1920.jpg");
     font-family: 'Gochi Hand', cursive;
+    color: white;
+    font-size: 1.3em;
+    text-shadow: 2px 2px maroon;
+}
+h1 {
+    text-shadow: 2px 2px maroon;
 }
 h2 {
     text-align: center;
@@ -17,7 +24,7 @@ p, .times {
     margin: 20px;
 }
 .title-game {
-    color: rgb(199,1,30);;
+    color: white;
     text-align: center;
     font-size: 3.5em;
 }
@@ -27,17 +34,19 @@ p, .times {
     display: flex;
     justify-content: space-between;
 }
+/*container that holds all the cards*/
 .main-container {
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-gap: 8px;
     justify-content: center;
     margin-bottom: 100px;
-    color: black;
+    color: white;
+    text-shadow: 2px 2px maroon;
     font-size: 2.1em;
    
 }
-
+/*card styles*/
 .cards {
     background-color: white;
     height: 115px;
@@ -49,35 +58,37 @@ p, .times {
     transform-style: preserve-3d;
     
 }
+/**************flipping of cards************/
 .front-face {
     backface-visibility: hidden;
      transform: rotateY(180deg);
 }
 .back-face {
     backface-visibility: hidden;
-    
 }
 .cards:hover {
     transform: scale(1.05);
     transform: rotateY(180deg);
     transition: ease .6s;
 }
-
+/*image sizes in desktop view*/
 img {
     height: 111px;
     width: 111px;
     border-radius: 15px;
 }
+/*positioning of images absolute to their parent div*/
 .front-face, .back-face {
     position: absolute;
 }
 .buttons {
     text-align: center;
 }
+/*start, reset and quit button styles*/
 button {
     font-family: 'Gochi Hand', cursive;
     width: 100px;
-    font-size: 1.5em;
+    font-size: 1em;
     letter-spacing: 2px;
     color: white;
     font-weight: bold;
@@ -93,7 +104,7 @@ button:hover {
    box-shadow: 3px 3px white;
    opacity: 0.9;
 }
-
+/****************************TABLET************************/
 @media screen and (max-width: 800px) {
   .cards{
       height: 95px;
@@ -113,6 +124,7 @@ button:hover {
       font-size: 1.6em;
   }
   }
+ /************************PHONE***************************/
 @media screen and (max-width: 480px) {
   .cards{
       height: 70px;

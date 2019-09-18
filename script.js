@@ -1,7 +1,7 @@
-
+//to shuffle cards when new game starts
 function shuffle() {
   
-  var tiles = Array.from(document.querySelectorAll("cards"));
+  var tiles = Array.from(document.getElementsByClassName("cards"));
   var current = tiles.length;
   var index, temp;
   
@@ -13,6 +13,10 @@ function shuffle() {
     tiles[current] = tiles[index];
     tiles[index] = temp;
   }
-  document.getElementsByClassName("cards").innerHTML = tiles;
-
+   document.getElementsByClassName("cards") = tiles.innerHTML;
+   
+  
 }
+
+
+
