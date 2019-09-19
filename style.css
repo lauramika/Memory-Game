@@ -4,9 +4,6 @@
     box-sizing: border-box;
     margin-top: 0;
 }
-html {
-    min-height: 100vh;
-}
 body {
     margin: 0;
      background-image: url("images/paw-print-941498_1920.jpg");
@@ -123,6 +120,7 @@ button:hover {
     margin-top: 70px;
     margin: auto;
     padding: 10px 60px;
+    margin-bottom: 80px;
 }
 .reset, .quit {
     margin-bottom: 50px;
@@ -133,14 +131,13 @@ button:hover {
   background-color: whitesmoke;
   z-index: 10;
   position: fixed;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   opacity: .9;
-  padding-bottom: 50px;
+  max-height: 100%;
+  overflow-y:auto;
 }
 #quitOverlay {
      display: none;
@@ -155,6 +152,9 @@ button:hover {
   bottom: 0;
   opacity: .9;
   padding-bottom: 50px;
+}
+#main-heading {
+    margin-top: 0;
 }
 /****************************TABLET media queries************************/
 @media screen and (max-width: 800px) {
