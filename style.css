@@ -24,6 +24,10 @@ h2 {
 p, .times {
     margin: 20px;
 }
+#intro, .how-to-play{
+    margin: auto;
+    width: 70%;
+}
 .title-game {
     color:black;
     text-align: center;
@@ -125,6 +129,8 @@ button:hover {
   .main-container {
       font-size: 1.6em;
   }
+  #intro, .how-to-play {
+    width: 90%;
   }
  /************************PHONE***************************/
 @media screen and (max-width: 480px) {
@@ -148,5 +154,7 @@ button:hover {
   button {
     width: 80px;
     font-size: 1em;
-}
-  }
+    }
+  #intro, .how-to-play {
+     width: 95%;
+    }

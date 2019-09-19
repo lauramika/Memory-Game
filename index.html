@@ -8,11 +8,13 @@
     <body>
         <h1 class="title-game">Memory Game</h1>
         <!--Intro-->
-        <h2>Introduction</h2>
-            <p>It's a single player card game in which all of the cards are 
-            laid face down on a surface and two cards are flipped face up over 
-            each turn. If all pairs are matched within the given time 
-            period, game is won.</p>
+        <div id="intro">
+            <h2>Introduction</h2>
+                <p>It's a single player card game in which all of the cards are 
+                laid face down on a surface and two cards are flipped face up over 
+                each turn. If all pairs are matched within the given time 
+                period, game is won.</p>
+        </div>
             <!--explanation how to play the game-->
          <div class="how-to-play">  
             <h2>How to play?</h2>
@@ -23,26 +25,7 @@
                 <li>Successfully match all pairs in the table to win!</li>
               </ol>
           </div>
-          <!--best results board-->
-          <div class="times">
-            <table>
-              <tr>
-                <td class= "title">Best Times</td>
-              </tr>
-              <tr>
-                <td class = "slot">0:0</td>
-              </tr>
-              <tr>
-                <td class = "slot">0:0</td>
-              </tr>
-              <tr>
-                <td class = "slot">0:0</td>
-              </tr>
-              <tr>
-                <td class = "slot">0:0</td>
-              </tr>
-            </table>
-          </div>
+          
           <!--start, reset and quit buttons-->
         <div class="buttons"> 
             <button class="start" onclick="shuffle()">Start</button>
