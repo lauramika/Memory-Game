@@ -15,5 +15,9 @@ period, game is won.
 * CSS
 * Javascript
 ## Credits
-Images taken from: http://clipart-library.com
-https://pixabay.com/illustrations/pattern-pastel-colorful-bright-488933/
+Images used for cards taken from: http://clipart-library.com
+Backgound image: https://pixabay.com/illustrations/pattern-pastel-colorful-bright-488933/
+## Acknowledgements
+Inspiration from:
+https://www.youtube.com/watch?v=ZniVgo8U7ek
+https://www.youtube.com/watch?v=28VfzEiJgy4
