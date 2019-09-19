@@ -156,7 +156,6 @@ button:hover {
   opacity: .9;
   padding-bottom: 50px;
 }
-
 /****************************TABLET media queries************************/
 @media screen and (max-width: 800px) {
   .cards{
