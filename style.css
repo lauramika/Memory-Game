@@ -110,6 +110,15 @@ button:hover {
    box-shadow: 3px 3px white;
    opacity: 0.9;
 }
+#overlay {
+  margin-top: 0;
+  height: 900px;
+  display: visible;
+  background-color: whitesmoke;
+  z-index: 10;
+  position: absolute;
+  opacity: .9;
+}
 /****************************TABLET************************/
 @media screen and (max-width: 800px) {
   .cards{
@@ -132,6 +141,7 @@ button:hover {
   #intro, .how-to-play {
     width: 90%;
   }
+}
  /************************PHONE***************************/
 @media screen and (max-width: 480px) {
   .cards{
@@ -158,3 +168,4 @@ button:hover {
   #intro, .how-to-play {
      width: 95%;
     }
+}

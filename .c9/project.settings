@@ -1,6 +1,9 @@
 {
+    "build": {
+        "@saveall": true
+    },
     "instance": {
-        "@automaticShutdown": "30"
+        "@automaticShutdown": "240"
     },
     "language": {
         "tern_defs": {

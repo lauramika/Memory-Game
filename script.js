@@ -1,5 +1,5 @@
 //to shuffle cards when new game starts
-function shuffle() {
+/*function shuffle() {
   
   var tiles = Array.from(document.getElementsByClassName("cards"));
   var current = tiles.length;
@@ -16,7 +16,10 @@ function shuffle() {
    document.getElementsByClassName("cards") = tiles.innerHTML;
    
   
+}*/
+
+//removes overlay div by clicking anywhere on the screen
+function off() {
+  document.getElementById("overlay").style.display = "none";
 }
-
-
 
