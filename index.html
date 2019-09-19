@@ -30,13 +30,13 @@
                   </ol>
              </div>
           </div>
-          <h1 class="title-game">Memo</h1>
+          <h1 class="title-game" id="memo">Memo</h1>
           <!--start, reset and quit buttons-->
         <div class="buttons"> 
             <button class="start" onclick="shuffle()">Start</button>
         </div>
         <!--Main container that holds all the cards-->
-        <div class="main-container">
+        <div class="main-container" id="main">
             <div class= "rules-container">
                 <div class="level-container">
                     Flips: <span id="flips">0</span>
@@ -190,9 +190,13 @@
                 </div>
             </div>
         </div>
-        <div class="buttons"> 
+        <div class="buttons" id="hide"> 
             <button class="reset" onclick="on()">Back</button>
-            <button class="quit">Quit</button>
+            <button class="quit" onclick="end()">Quit</button>
+        </div>
+        <div class="end" id="quitOverlay">
+            <h1 class="title-game">Game Over</h>
+            <h1 class="title-game">Come back next time</h>
         </div>
         <script type="text/javascript" src="script.js"></script>
     </body>

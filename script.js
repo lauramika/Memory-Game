@@ -26,3 +26,10 @@ function off() {
 function on() {
   document.getElementById("overlay").style.display = "block";
 }
+//when player click quit button quitOverlay becomes visible
+function end() {
+  document.getElementById("quitOverlay").style.display = "block";
+  document.getElementById("main").style.display = "none";
+   document.getElementById("hide").style.display = "none";
+   document.getElementById("memo").style.display = "none";
+}
