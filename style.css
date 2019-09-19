@@ -48,7 +48,7 @@ p, .times {
     grid-template-columns: repeat(4, auto);
     grid-gap: 8px;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     color: black;
     text-shadow: 2px 2px white;
     font-size: 2.1em;
@@ -111,6 +111,9 @@ button:hover {
    transform: scale(1.1);
    box-shadow: 3px 3px white;
    opacity: 0.9;
+}
+.reset, .quit {
+    margin-bottom: 50px;
 }
 /*overlay div with intro and rules explained*/
 #overlay {

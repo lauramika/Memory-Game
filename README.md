@@ -12,8 +12,15 @@ period, game is won.
 4. User should be able to see pairs that have been matched already in order not to select them again;
 ## Technologies Used
 * HTML
+HTML is used to create web page project.  HTML code ensures the proper formatting of text
+and images so that your Internet browser may display them as they are intended to look.
 * CSS
+CSS is used to define the font, font size, font weight, its position, 
+and other visual settings.
 * Javascript
+Javascript gives to this game its interactivity and provides functionality.
+## Testing
+
 ## Credits
 Images used for cards taken from: http://clipart-library.com
 Backgound image: https://pixabay.com/illustrations/pattern-pastel-colorful-bright-488933/
