@@ -25,6 +25,7 @@ h2 {
 p, .times {
     margin: 20px;
 }
+/*size for intro ann how-to-play divs*/
 #intro, .how-to-play{
     margin: auto;
     width: 70%;
@@ -113,15 +114,19 @@ button:hover {
 }
 /*overlay div with intro and rules explained*/
 #overlay {
-  margin-top: 0;
-  height: 900px;
   display: visible;
   background-color: whitesmoke;
   z-index: 10;
-  position: absolute;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   opacity: .9;
 }
-/****************************TABLET************************/
+/****************************TABLET media queries************************/
 @media screen and (max-width: 800px) {
   .cards{
       height: 95px;
@@ -144,7 +149,7 @@ button:hover {
     width: 90%;
   }
 }
- /************************PHONE***************************/
+ /************************PHONE media queries***************************/
 @media screen and (max-width: 480px) {
   .cards{
       height: 70px;
