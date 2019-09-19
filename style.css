@@ -13,7 +13,6 @@ body {
     font-family: 'Gochi Hand', cursive;
     color: black;
     font-size: 1.3em;
-    
 }
 h1 {
     text-shadow: 3px 3px white;
@@ -128,7 +127,10 @@ button:hover {
   right: 0;
   bottom: 0;
   opacity: .9;
+  padding-bottom: 50px;
 }
+
+
 /****************************TABLET media queries************************/
 @media screen and (max-width: 800px) {
   .cards{

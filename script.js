@@ -22,4 +22,7 @@
 function off() {
   document.getElementById("overlay").style.display = "none";
 }
-
+//makes overlay visible
+function on() {
+  document.getElementById("overlay").style.display = "block";
+}
