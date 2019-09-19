@@ -116,6 +116,14 @@ button:hover {
    box-shadow: 3px 3px white;
    opacity: 0.9;
 }
+/*center reload button and resize*/
+#reload {
+    display: flex; 
+    justify-content: center;
+    margin-top: 70px;
+    margin: auto;
+    padding: 10px 60px;
+}
 .reset, .quit {
     margin-bottom: 50px;
 }
