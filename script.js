@@ -30,6 +30,7 @@ function on() {
 function end() {
   document.getElementById("quitOverlay").style.display = "block";
   document.getElementById("main").style.display = "none";
-   document.getElementById("hide").style.display = "none";
-   document.getElementById("memo").style.display = "none";
+  document.getElementById("hide").style.display = "none";
+  document.getElementById("memo").style.display = "none";
+  document.getElementById("start").style.display = "none";
 }
