@@ -1,10 +1,11 @@
 # Memory Game
 https://lauramika.github.io/Memory-Game/
-## Intro
-It's a single player card game in which all of the cards are 
+## UX
+Memory game "Memo" a single player card game for kids in which all of the cards are 
 laid face down on a surface and two cards are flipped face up over 
 each turn. If all pairs are matched within the given time 
-period, game is won.
+period, game is won. "Memo" main purpose is to have fun, game also improves concentration, 
+trains visual memory, increases short trem memory and increases attention to detail.
 ## User Stories
 1. User should be able to select two cards so that it is possible to see if they match;
 2. User should be able to see how long he/she have been playing so that he/she can improve next time;
