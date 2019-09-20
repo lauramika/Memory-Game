@@ -33,7 +33,7 @@ Mockups placed in the folder called mockups in the Memory Game's main file.
 Game was tested manually, misisng features (listed above - features left to implement).
 Navigation tested - user is able to proceed forward and go back.
 
-## Deployment of te project
+## Deployment of the project
 Project is deployed using GitHub pages. Link: https://lauramika.github.io/Memory-Game/
 
 ## Credits
