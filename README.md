@@ -19,7 +19,22 @@ CSS is used to define the font, font size, font weight, its position,
 and other visual settings.
 * Javascript
 Javascript gives to this game its interactivity and provides functionality.
+
+## Mockups
+Mockups placed in the folder called mockups in the Memory Game's main file.
+
+## Features Left to Implement
+ Game's funcionality is not completed, features left to implement:
+ 1. shuffle the cards in the game board;
+ 2. allow user to flip two cards at a time;
+ 3. check for matched cards;
+ 4. store match cards;
+ 5. implement the timer and amount of flips;
+ 6. print the result - time needed for user to match all pairs and amount of flips.
+ 
 ## Testing
+Game was tested manually, misisng features (listed above - features left to implement).
+Navigation tested - user is able to proceed forward and go back.
 
 ## Credits
 Images used for cards taken from: http://clipart-library.com
