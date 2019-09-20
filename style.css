@@ -128,7 +128,7 @@ button:hover {
 /*overlay div with intro and rules explained*/
 #overlay {
   display: visible;
-  background-color: whitesmoke;
+  background-color: #B0B0B0;
   z-index: 10;
   position: fixed;
   top: 0;
